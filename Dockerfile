@@ -20,6 +20,7 @@ RUN apt-get update \
     && apt-get update \
     && apt-get install -y qbittorrent-nox openvpn curl moreutils net-tools dos2unix kmod iptables ipcalc unrar \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+    && sudo apt upgrade -y
 
 # Add configuration and scripts
 ADD openvpn/ /etc/openvpn/
