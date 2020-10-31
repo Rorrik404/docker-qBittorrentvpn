@@ -3,7 +3,7 @@
 # Version 1.8
 
 FROM ubuntu:18.04
-MAINTAINER MarkusMcNugen
+MAINTAINER Rorrik404
 
 VOLUME /downloads
 VOLUME /config
